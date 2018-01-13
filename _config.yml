@@ -1,0 +1,51 @@
+aboutPage: true
+
+# - markdown: redcarpet
+highlighter: rouge
+
+domain_# - name: "http://[HOSTNAME]"
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_short# - name: 'your-disqus-shortname'
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+
+title: "Marcelo Marfil"
+tagline: ""
+description: "Human. Designer at Sketch."
+credits: "Human. Designer at Sketch."
+baseurl: ""
+url: "https://mmarfil.com"
+markdown: "kramdown"
+username: "mmarfil"
+permalink: "/:year/:month/:day/:title.html"
+relative_permalinks: false
+author: "Marcelo Marfil"
+name: "Marcelo Marfil"
+full_name: "Marcelo Marfil"
+bio: ""
+twitter_username: "marcelomarfil"
+github_username: "mmarfil"
+instagram_username: ""
+paginate: 20
+paginate_path: "/page/:num/"
+timezone: "Etc/GMT+2"
+site_id: "2313"
