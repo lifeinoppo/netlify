@@ -390,11 +390,6 @@ Post List
 	border-top: 0 !important;
 }
 
-#post-list li+li {
-	padding-top: 25px;
-	border-top: 1px solid #eee;
-}
-
 #post-list h1 a {
 	color: #333;
 	display: block;
