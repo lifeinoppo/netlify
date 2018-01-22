@@ -3,4 +3,4 @@ title: ""
 date: 2018-01-05 14:21:00 -0200
 ---
 
-What I find fascinating about micro.blog is the ["lack" of features by design](http://www.manton.org/2018/01/dont-worry-about-numbers.html). At the very least, it's a slap in the face in the race to the top.
+What I find fascinating about micro.blog is the ["lack" of features by design](http://www.manton.org/2018/01/dont-worry-about-numbers.html).
