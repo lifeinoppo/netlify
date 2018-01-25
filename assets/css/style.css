@@ -95,7 +95,7 @@ nav.main-nav a {
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
-	border-radius: 3px;
+	border-radius: 5px;
 
 }
 nav.main-nav a.cta {
@@ -268,7 +268,7 @@ pre	{
 	background-color:#fdfdfd;
 	/*font-size:14px;*/
 	overflow:auto;
-	border-radius: 3px;
+	border-radius: 5px;
 	background: #272b2d;
 	  font-family: 'Source Code Pro',Menlo,monospace;
 	  font-size: 13px;
@@ -322,7 +322,7 @@ thead th,th {
 img {
 	width: 100%;
 	max-width: 100%;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 /* Made with Cactus Badge */
