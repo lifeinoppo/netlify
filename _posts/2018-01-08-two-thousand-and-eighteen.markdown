@@ -9,4 +9,4 @@ During holidays I decided to take a break from Twitter, blow the dust off of thi
 
 My plan now is to rethink how I interact with social media, after the tumultuous year that was 2017.
 
-And with that being said—and if you like—you're more than welcome to [join me at Micro.blog](https://micro.blog/mmarfil).
+And with that being said—and if you like—you're more than welcome to [join me at Micro.blog](https://micro.blog/mmarfil) or subscribe to my [JSON](https://mmarfil.com/feed.json) / [RSS](https://mmarfil.com/feed.xml) feeds.
