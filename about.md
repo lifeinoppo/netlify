@@ -10,6 +10,6 @@ Currently, I design [Sketch](https://sketchapp.com/).
 
 If you're looking for some of my previous work, you can find it [here](/work).
 
-[RSS](/feed.xml) • [JSON Feed](/feed.json) • [Micro.blog](https://micro.blog/mmarfil) • [Twitter](https://twitter.com/marcelomarfil) • [Email](marcelomarfil@me.com)
+[RSS](/feed.xml) • [JSON Feed](/feed.json) • [Micro.blog](https://micro.blog/mmarfil) • [Email](marcelomarfil@me.com)
 
 {% include footer.html %}
