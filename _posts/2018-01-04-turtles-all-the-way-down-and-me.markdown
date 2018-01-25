@@ -13,7 +13,7 @@ Those words got stuck in my head for a few days—and even with a lot hesitation
 
 The hesitation came from thinking this would lessen me, personal and professionally. _"It's a mental illness, people will think you're crazy"_, the little devil in me said. For once I decided to tell it to fuck off.
 
-So yeah, long story short: Yes, I do have OCD. And no, I don't wash my hands excessively, or am _too_ organised or even a perfectionist. 
+So yeah, long story short: Yes, I do have OCD. And no, I don't wash my hands excessively, or am _too_ organized or even a perfectionist.
 
 ### Wait, what?
 
@@ -25,7 +25,7 @@ I'm mostly affected by **body focussed obsessions** and **intrusive thoughts**. 
 
 ### How does it feel like?
 
-It's pretty tricky to explain. Metaphorically speaking, imagine being an ordinary passenger in a bus driven by a prick, the prick being your broken brain. You realise he's not driving well, you try to argue with him but he's stubborn and stupid. It's… tiresome.
+It's pretty tricky to explain. Metaphorically speaking, imagine being an ordinary passenger in a bus driven by a prick, the prick being your broken brain. You realize he's not driving well, you try to argue with him but he's stubborn and stupid. It's… tiresome.
 
 The OCD is with me from the moment I wake up until I go to bed. It's an intruder seeking to control my thoughts and actions. The simple act of booking an airline ticket 3 months prior to the flight is enough to trigger intrusive thoughts:
 

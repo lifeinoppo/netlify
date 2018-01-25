@@ -36,6 +36,17 @@ h2 {
 	color: #bbb;
 }
 
+code.highlighter-rouge {
+	background-color: #F5F5F5;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px 10px;
+	color: #7F7F7F;
+	font-size: 13px;
+	line-height: 1.35;
+	font-style: italic;
+}
+
 .profile #wrapper {
 	padding: 100px 40px 0px;
 	max-width: 600px;
