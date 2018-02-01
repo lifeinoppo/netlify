@@ -3,4 +3,4 @@ title: ""
 date: 2018-02-01 12:29:53 -0200
 ---
 
-A journey into the unknown is already special by itself, regardless where you end up at.
+A journey into the unknown is already special by itself, regardless of where you end up at.
