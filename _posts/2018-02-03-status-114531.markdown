@@ -3,7 +3,7 @@ title: ""
 date: 2018-02-03 11:45:31 -0200
 ---
 
-Just updated my [About](https://mmarfil.com/about/] page to include something I'm very proud of:
+Just updated my [About](https://mmarfil.com/about/) page to include something I'm very proud of:
 
 > This website has no ads, analytics, webstats, iframes, scripts or any other kind of trackers. I have no interest in collecting data about you.
 
