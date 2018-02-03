@@ -11,8 +11,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .hidden { display: none; }
 
 /* Spacing */
-.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
-margin-bottom: 20px;
+.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre ::before {
+	margin-top: 1em;
 }
 
 /* Base */
@@ -159,12 +159,13 @@ a,
 
 ul 	{ margin:0; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside;}
-li:last-child {padding-bottom: 20px;}
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
 #post-body li { padding-left:20px; }
+
+#post-body ul { padding: 1em 0 0 0; }
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -204,13 +205,13 @@ em, i { font-style: italic; }
 }
 
 .post h1 {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	  font: 300 24px/1.5 '-apple-system', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  color: #111;
 }
@@ -219,7 +220,7 @@ em, i { font-style: italic; }
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
 	font: normal 13px/1.5em '-apple-system', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: -5px 0 40px 0;
+	margin-bottom: 30px;
 	color: #b2b9be;
 	  font-size: 13px;
 	  text-transform: uppercase;
@@ -264,9 +265,30 @@ blockquote {
 hr {
 	display: block;
 	border: none;
-	height: 1px;
-	margin: 40px auto;
+	height: 2px;
+	margin: 34px 0 40px 0;
+	width: 100%;
 	background: #eee;
+	width: 30%;
+	text-align: center;
+}
+
+span.separator {
+	display: block;
+	margin: 42px 0 48px 0;
+	width: 100%;
+}
+
+span.divider {
+	display: block;
+	width: 10%;
+	background-color: #d4d4d4;
+	height: 2px;
+	margin: 0 auto;
+}
+
+span.separator:last-child {
+	display: none;
 }
 
 span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
@@ -360,22 +382,13 @@ Post List
 .post_content li {
 	list-style-type: circle !important;
 	padding-left: 20px;
-}
-
-.post_content li+li {
-	padding-top: 0 !important;
-	border-top: 0 !important;
+	margin: 20px 0 !important;
 }
 
 #post-list h1 a {
 	color: #333;
 	display: block;
 	font: bold 22px '-apple-system', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-bottom: 20px;
-}
-
-#post-list ul {
-	line-height: 1.7;
 }
 
 #post-list .dates {
