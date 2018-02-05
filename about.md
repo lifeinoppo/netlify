@@ -4,15 +4,13 @@ permalink: about/
 profile: true
 ---
 
-I'm a thirty-something average husband to an amazing wife, father of a little princess and we live in Brazil. I'm a sci-fi aficionado and design for a living.
+I'm an average husband to an amazing wife and proud father of little princess. We live in Brazil with our two cats and a house full of toys. I'm a sci-fi aficionado and also happen to design [Sketch](https://sketchapp.com/)… in Sketch.
 
 Since 2008, I’ve had the privilege of working with companies such as Paramount Pictures, SproutCore, Acrylic, AppZapper, The Echo Nest, Snowman, SuperMegaUltraGroovy, Vemedio and many others.
 
-Currently, I design [Sketch](https://sketchapp.com/).
+Anyway, if you're looking for some of my previous work, you can find it [here](/work).
 
-If you're looking for some of my previous work, you can find it [here](/work).
-
-### Other links
+### Links
 
 [RSS](/feed.xml) • [JSON Feed](/feed.json) • [Micro.blog](https://micro.blog/mmarfil) • [Email](mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#109;&#109;&#097;&#114;&#102;&#105;&#108;&#046;&#099;&#111;&#109;)
 
