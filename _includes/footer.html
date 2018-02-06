@@ -1,3 +1,12 @@
 <footer id="footer">
-    <p class="small">🎩</p>
+    {% if page.url != "/about/" %}
+    <form method="get" id="search" action="http://duckduckgo.com/">
+        <input type="hidden" name="sites" value="mmarfil.com"/>
+        <input type="hidden" name="k8" value="#444444"/>
+        <input type="hidden" name="k9" value="#ee4792"/>
+        <input type="hidden" name="kt" value="h"/>
+        <input class="field" type="text" name="q" maxlength="255" placeholder="Search&hellip;"/>
+        <input type="submit" value="Search" style="display: none;" />
+    </form>
+    {% endif %}
 </footer>
