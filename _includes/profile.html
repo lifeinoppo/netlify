@@ -2,13 +2,11 @@
     <section id="wrapper">
         <header id="header">
 
-        {% if page.url != "/" %}
+        {% if page.url == "/about/" %}
         <a href="{{ "/" | relative_url  }}">
             <img id="avatar" src="{{ "/" | relative_url  }}assets/images/avatar-real.jpg"/>
         </a>
-        {% endif %}
-
-        {% if page.url != "/about/" %}
+        {% else %}
         <a href="{{ "/" | relative_url  }}about">
             <img id="avatar" src="{{ "/" | relative_url  }}assets/images/avatar.svg"/>
         </a>

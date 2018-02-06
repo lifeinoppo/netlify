@@ -594,6 +594,15 @@ h2.month {
 }
 
 
+/* Form */
+
+#search input.field {
+	width: 100%;
+	height: 36px;
+	font: 16px/1 '-apple-system', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left: 10px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:25px 25px 25px 25px;}
