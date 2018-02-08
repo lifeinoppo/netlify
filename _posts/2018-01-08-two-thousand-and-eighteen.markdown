@@ -3,7 +3,7 @@ title: "Two Thousand and Eighteen"
 date: 2018-01-27 00:18:12 -0200
 ---
 
-```This post was originally published on January 8, 2018 and has now been updated to reflect some changes.```
+```This post was originally published on January 8, 2018 and has been updated to reflect some changes.```
 
 Since I joined the [Sketch](https://sketchapp.com/) team back in mid-2016, this site has been pretty much put on hold—until now.
 
