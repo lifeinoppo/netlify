@@ -162,11 +162,9 @@ ul 	{ margin:0; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside;}
 
 /* Line Height */
-#post-body, p { line-height:1.7; }
+.post-body, p { line-height:1.7; }
 
-#post-body li { padding-left:20px; }
-
-#post-body ul { padding: 1em 0 0 0; }
+.post-body li { padding-left:20px; }
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -386,7 +384,6 @@ Post List
 .post_content li {
 	list-style-type: circle !important;
 	padding-left: 20px;
-	margin: 20px 0 !important;
 }
 
 #post-list h1 a {
