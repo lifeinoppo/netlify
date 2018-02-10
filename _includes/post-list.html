@@ -3,6 +3,7 @@
         <li>
             <article class="h-entry">
                 <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}" class="u-url"><aside class="dates"><time datetime="{{ post.date }}" class="dt-published">→ {{ post.date | date:"%-I:%M %p, %b %-d" }}</time></aside></a>
+                <span class="p-author author">{{ site.author }}</span>
                 {% if post.title == "" %}
                 <section class="e-content post-body">
                     {{ post.content }}

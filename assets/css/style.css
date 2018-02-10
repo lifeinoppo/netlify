@@ -449,6 +449,10 @@ Post List
 	margin: 80px 0 0 0;
 }
 
+.author {
+	display: none;
+}
+
 #post-meta {
 	font-size: 13px;
 	font-weight: bold;
