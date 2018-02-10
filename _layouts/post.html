@@ -3,13 +3,12 @@ layout: default
 archive: true
 ---
 
-<article class="h-entry post">
+<article class="post">
     <header>
-        <h1 class="p-name">{{ page.title }}</h1>
-        <h2 class="dt-published headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
-        <span class="p-author h-card author">{{ site.author }}</span>
+        <h1>{{ page.title }}</h1>
+        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
     </header>
-    <section class="e-content post-body">
+    <section class="post-body">
         {{content}}
     </section>
 </article>
@@ -17,7 +16,7 @@ archive: true
     <a href="/">
         <img class="avatar" src="{{ "/" | relative_url  }}assets/images/avatar.svg">
         <div>
-            <span class="p-author dark">{{ site.author }}</span>
+            <span class="dark">{{ site.author }}</span>
             <span>{{ site.description }}</span>
         </div>
     </a>

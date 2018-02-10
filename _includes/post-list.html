@@ -1,18 +1,17 @@
 <ul id="post-list">
     {% for post in paginator.posts %}
         <li>
-            <article class="h-entry">
+            <article>
                 <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}" class="u-url"><aside class="dates"><time datetime="{{ post.date }}" class="dt-published">→ {{ post.date | date:"%-I:%M %p, %b %-d" }}</time></aside></a>
-                <span class="p-author h-card author">{{ site.author }}</span>
                 {% if post.title == "" %}
-                <section class="e-content post-body">
+                <section class="post-body">
                     {{ post.content }}
                 </section>
                 {% else %}
                 <header>
-                    <h1 class="p-name"><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h1>
+                    <h1><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h1>
                 </header>
-                <section class="e-content post_content">
+                <section class="post_content">
                     {{ post.content }}
                 </section>
                 {% endif %}
