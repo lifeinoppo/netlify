@@ -3,9 +3,9 @@
         <li>
             <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}" class="u-url"><aside class="dates"><time datetime="{{ post.date }}" class="dt-published">→ {{ post.date | date:"%-I:%M %p, %b %-d" }}</time></aside></a>
                 {% if post.title == "" %}
-                    <span class="post_content">{{ post.content }}</span>
+                    <span class="e-content post_content">{{ post.content }}</span>
                 {% else %}
-                    <h1><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h1> <span class="post_content">{{ post.content }}</span>
+                    <h1 class="p-name"><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h1> <span class="e-content post_content">{{ post.content }}</span>
                 {% endif %}
         </li>
         <span class="separator"><span class="divider"></span></span>
