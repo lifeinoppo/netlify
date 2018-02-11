@@ -1,6 +1,6 @@
 ---
 title: "Two Thousand and Eighteen"
-date: 2018-01-27 00:18:12 -0200
+date: 2018-01-27 00:18:12 America/Sao_Paulo
 ---
 
 ```This post was originally published on January 8, 2018 and has been updated to reflect some changes.```

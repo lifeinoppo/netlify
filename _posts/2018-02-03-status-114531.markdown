@@ -1,6 +1,6 @@
 ---
 title: ""
-date: 2018-02-03 11:45:31 -0200
+date: 2018-02-03 11:45:31 America/Sao_Paulo
 ---
 
 Just updated my [About](https://mmarfil.com/about/) page to include something I'm very proud of:
