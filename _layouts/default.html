@@ -25,9 +25,13 @@
       {% include profile.html %}
   {% endif %}
 
-  <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+  <section id="wrapper">
     {{ content }}
   </section>
+
+  <footer id="footer">
+    {% include footer.html %}
+  </footer>
 
 </body>
 </html>

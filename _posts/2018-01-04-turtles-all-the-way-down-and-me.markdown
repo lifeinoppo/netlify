@@ -21,7 +21,7 @@ Obsessive compulsive disorder (OCD) is commonly—and mistakenly—associated to
 
 I for one don't fit into the most common stereotypes and still, I have OCD.
 
-I'm mostly affected by **body focussed obsessions** and **intrusive thoughts**. If you're interested, you can read more about "[The Different Types of Obsessive-Compulsive Disorder](http://ocduk.org/types-ocd)".
+I'm mostly affected by "body focussed obsessions" and "intrusive thoughts". If you're interested, you can read more about "[The Different Types of Obsessive-Compulsive Disorder](http://ocduk.org/types-ocd)".
 
 ### How does it feel like?
 

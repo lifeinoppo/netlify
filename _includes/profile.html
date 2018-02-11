@@ -1,19 +1,19 @@
 <div class="profile">
     <section id="wrapper">
-        <header id="header">
+        <header class="h-card">
 
         {% if page.url == "/about/" %}
-        <a href="{{ "/" | relative_url  }}">
-            <img id="avatar" src="{{ "/" | relative_url  }}assets/images/avatar-real.jpg"/>
+        <a class="u-url" href="{{ "/" | relative_url  }}">
+            <img class="u-photo" id="avatar" src="{{ "/" | relative_url  }}assets/images/avatar-real.jpg" rel="me"/>
         </a>
         {% else %}
-        <a href="{{ "/" | relative_url  }}about">
+        <a class="u-url" href="{{ "/" | relative_url  }}about">
             <img id="avatar" src="{{ "/" | relative_url  }}assets/images/avatar.svg"/>
+            <img class="u-photo hidden" src="{{ "/" | relative_url  }}assets/images/avatar-real.jpg" rel="me"/>
         </a>
         {% endif %}
-
-            <h1>{{ site.author }}</h1>
-            <h2>{{ site.description }}</h2>
+            <h1 class="p-name" rel="me">{{ site.author }}</h1>
+            <h4 class="p-role">{{ site.description }}</h4>
         </header>
     </section>
 </div>

@@ -3,6 +3,8 @@ author: "Marcelo Marfil"
 description: "Human. Designer at Sketch."
 baseurl: ""
 url: "https://mmarfil.com"
+email: "hello@mmarfil.com"
+microblog_user: "mmarfil"
 permalink: "/:year/:month/:day/:title.html"
 relative_permalinks: false
 paginate: 20

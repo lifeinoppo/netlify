@@ -11,7 +11,7 @@
                 <header>
                     <h1><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h1>
                 </header>
-                <section class="post_content">
+                <section class="post-body">
                     {{ post.content }}
                 </section>
                 {% endif %}
@@ -20,3 +20,8 @@
         <span class="separator"><span class="divider"></span></span>
     {% endfor %}
 </ul>
+
+
+{% if paginator.previous_page or paginator.next_page %}
+    {% include pagination.html %}
+{% endif %}
