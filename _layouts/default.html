@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content='{{ site.name }}' name='author'>
-  <meta content='{{ site.meta_description }}' name='description'>
-  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta content="{{ site.author }}" name="author">
+  <meta content="{{ site.description }}" name="description">
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <link href="{{ "/" | relative_url  }}assets/css/style.css" rel="stylesheet">
-  <link href="{{ "/" | relative_url  }}feed.json" title="{{ site.name }}" type="application/json" rel="alternate">
-  <link href="{{ "/" | relative_url  }}feed.xml" title="{{ site.name }}" type="application/rss+xml" rel="alternate">
   <link href="{{ "/" | relative_url  }}assets/css/highlight.css"rel="stylesheet">
   <link href="{{ "/" | relative_url  }}assets/images/fav32.png" sizes="32x32" rel="icon">
   <link href="{{ "/" | relative_url  }}assets/images/fav192.png" sizes="192x192" rel="icon">
   <link href="{{ "/" | relative_url  }}assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link href="{{ "/" | relative_url  }}feed.json" title="{{ site.title }}" type="application/json" rel="alternate">
+  <link href="{{ "/" | relative_url  }}feed.xml" title="{{ site.title }}" type="application/rss+xml" rel="alternate">
   <link href="https://micro.blog/mmarfil" rel="me">
   <link href="https://github.com/mmarfil" rel="me">
 </head>

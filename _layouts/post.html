@@ -1,37 +1,22 @@
 ---
 layout: default
-archive: true
 ---
 
-<article class="post">
-    <header>
-        <h1>{{ page.title }}</h1>
-        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
-    </header>
-    <section class="post-body">
-        {{content}}
-    </section>
-</article>
-<footer id="post-meta" class="clearfix">
+<article class="h-entry post">
+  <header>
+    <h1 class="p-name">{{ page.title }}</h1>
+    <h2 class="headline"><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date:"%B %-d, %Y" }}</time></h2>
+  </header>
+  <section class="e-content post-body">
+      {{content}}
+  </section>
+  <footer id="post-meta" class="clearfix">
     <a href="/">
-        <img class="avatar" src="{{ "/" | relative_url  }}assets/images/avatar.svg">
-        <div>
-            <span class="dark">{{ site.author }}</span>
-            <span>{{ site.description }}</span>
-        </div>
+      <img class="avatar" src="{{ "/" | relative_url  }}assets/images/avatar.svg">
+      <div>
+        <span class="p-author dark">{{ site.author }}</span>
+        <span>{{ site.description }}</span>
+      </div>
     </a>
-
-</footer>
-
-
-<!-- Archive post list -->
-{% if page.archive %}
-    <ul id="post-list" class="archive readmore">
-        <h3>Read more</h3>
-        {% for post in site.posts %}
-            <li>
-                <a href="{{ "/" | relative_url  }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-            </li>
-        {% endfor %}
-    </ul>
-{% endif %}
+  </footer>
+</article>
