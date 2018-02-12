@@ -1,0 +1,8 @@
+---
+title: ""
+date: 2018-02-12 00:04:35 America/Sao_Paulo
+---
+
+I'm making [my blog](https://mmarfil.com/)'s Jekyll theme [available on GitHub](https://github.com/mmarfil/neocactus) to anyone interested. Feel free to fork, modify, redistribute it—no need to credit me. 
+
+Just a disclaimer, I'm only a designer, so the code may not look pretty!
