@@ -13,7 +13,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 /* Spacing */
-.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre ::before {
+.highlight, .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre ::before {
 	margin-top: 1em;
 }
 
@@ -144,7 +144,7 @@ code.highlighter-rouge {
 	background-color: #F5F5F5;
 	border-radius: 5px;
 	display: inline-block;
-	padding: 7px 10px;
+	padding: 3px 6px;
 	color: #7F7F7F;
 	font-size: 15px;
 	line-height: 1.35;
