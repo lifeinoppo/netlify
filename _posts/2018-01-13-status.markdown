@@ -1,6 +1,6 @@
 ---
 title: ""
-date: 2018-01-13 13:56:00 -0200
+date: 2018-01-13 13:56:00 America/Sao_Paulo
 ---
 
 > "We think of a book as something to be read continuously from beginning to end. […] here you can return: bits will have changed, been nuanced; it will have evolved and matured."

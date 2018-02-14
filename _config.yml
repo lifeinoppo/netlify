@@ -1,7 +1,18 @@
-aboutPage: true
+title: "Marcelo Marfil"
+author: "Marcelo Marfil"
+description: "Human. Designer at Sketch."
+baseurl: ""
+url: "https://mmarfil.com"
+email: "hello@mmarfil.com"
+microblog_user: "mmarfil"
+permalink: "/:year/:month/:day/:title.html"
+relative_permalinks: false
+paginate: 20
+paginate_path: "/page/:num/"
+timezone: America/Sao_Paulo
 
-# - markdown: redcarpet
-highlighter: rouge
+highlighter: "rouge"
+markdown: "kramdown"
 
 defaults:
     -
@@ -16,24 +27,3 @@ defaults:
             type: posts
         values:
             layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
-
-title: "Marcelo Marfil"
-description: "Human. Designer at Sketch."
-credits: "Human. Designer at Sketch."
-baseurl: ""
-url: "https://mmarfil.com"
-markdown: "kramdown"
-permalink: "/:year/:month/:day/:title.html"
-relative_permalinks: false
-author: "Marcelo Marfil"
-name: "Marcelo Marfil"
-full_name: "Marcelo Marfil"
-paginate: 20
-paginate_path: "/page/:num/"
-timezone: "Etc/GMT+2"
