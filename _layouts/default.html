@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content='{{ site.name }}' name='author'>
   <meta content='{{ site.meta_description }}' name='description'>
-  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <title>{{ site.name }} {% assign exist_or_not = page.title | size %} {% if exist_or_not < 1 %} - Microblog {% else %} - {{ page.title }} {% endif %}</title>
   <link href="{{ "/" | relative_url  }}assets/css/style.css" rel="stylesheet">
   <link href="{{ "/" | relative_url  }}feed.json" title="{{ site.name }}" type="application/json" rel="alternate">
   <link href="{{ "/" | relative_url  }}feed.xml" title="{{ site.name }}" type="application/rss+xml" rel="alternate">
