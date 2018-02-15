@@ -7,7 +7,7 @@ It’s been a few years since we cut cable, so we mostly watch Netflix shows the
 
 Hulu isn’t available in Brazil; HBO Now (oddly called HBO Go in here) is a mess and the streaming quality is incredibly poor; Amazon Prime catalog is plain depressing; And piracy is not an option for us. Besides, efficiency and convenience _always_ win in the end.
 
-With that being said, 99% of what’s listed below are on Netflix.
+With that being said, 99% of what’s listed below are a available on Netflix.
 
 ### 🤩 Favorites
 - Better Caul Saul (S04/2018)
