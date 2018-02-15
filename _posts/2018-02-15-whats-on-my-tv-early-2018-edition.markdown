@@ -17,7 +17,7 @@ With that being said, 99% of what’s listed below are on Netflix.
 ### 🍿 Popcorn
 - You Me Her (2018)
 
-### 📦 Self-contained Seasons
+### 📦 Self-contained
 - Marvel’s Jessica Jones (S02/March 8)
 - Marvel’s Daredevil (S03/2018)
 
